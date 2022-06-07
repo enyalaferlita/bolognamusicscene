@@ -1,0 +1,126 @@
+.bg-image {background-image: url(../img/bolognabackgrounddark.jpg);
+	     	background-position: center center;
+	     	background-repeat: no-repeat;
+	     	background-attachment: fixed;
+	     	background-size: cover;
+	     }
+
+
+@media only screen and (max-width: 767px) {.bg-image { background-image: url(../img/bolognabackgrounddark-min.jpg)}}
+
+
+h1 {color: white !important;
+	text-align: center;
+	padding-top: 20%;
+	font-family: 'Sedgwick Ave', cursive;
+	font-size: 110px !important; }
+
+.learnmore { display: inline-block;
+	background-color: white;
+	letter-spacing: 2px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none !important;
+	color: black;
+	margin-left: 43% !important;}
+
+#li::marker {}
+
+nav {opacity: 0.9;}		
+
+
+nav li {font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		letter-spacing: 2px;
+		}
+
+
+.navbar-nav {margin-left: 35%;
+margin-right: 35%;}
+
+h2, h3 {font-family: 'Montserrat', sans-serif;
+			text-align: center;
+			font-weight: 400;
+			font-size: 5px;
+			letter-spacing: 2px;
+			margin-top: 0%;
+			padding-top: 3%;
+			 }
+
+
+.non-title {font-family: 'Montserrat', sans-serif;
+			text-align: center;
+			letter-spacing: 2px;
+			margin: 1% 15%;
+		}
+
+
+.morepadding { padding: 1em 15%; }
+
+
+.btn-primary {font-family: 'Montserrat', sans-serif;
+			text-align: center;
+			font-weight: 400;
+			letter-spacing: 2px; }
+
+
+.card-title, .card-text {font-family: 'Montserrat', sans-serif;
+			text-align: center;
+			letter-spacing: 2px; }
+
+
+.intro {font-family: 'Montserrat', sans-serif;
+			text-align: center;
+			letter-spacing: 2px;
+			margin: 4% 15%;
+}
+
+.backgrounddance {background: url(../img/club.jpg!d);
+	     	height: 92.5vh;
+	     	width: auto;
+	     	background-size: 100%;
+	     	background-position: 0% 30%;}
+
+.non-title-background {font-family: 'Montserrat', sans-serif;
+			text-align: center;
+			letter-spacing: 2px;
+			margin: 1% 10%;
+			background-color: rgba(0,0,0,0.8);
+			color: white;
+			border-radius: 10px;
+			padding: 20px;
+		}
+
+.center {display: flex;
+  justify-content: center;
+  align-items: center;}
+
+.backgroundjazz { background: url(../img/jazz.jpg);
+				background-size: 100%;
+				padding-top: 10%; 
+				padding-bottom: 10%;
+				padding-left: 15%;
+				padding-right: 15%; 
+				margin-bottom: 5%;}
+
+#map { margin-top: 3%;
+		margin-bottom: 10%;
+		margin-left: 10%;
+		margin-right: 10%;}
+
+.blocktext {font-family: 'Montserrat', sans-serif;
+			text-align: left;
+			letter-spacing: 2px;
+			margin-left: 43%;
+			margin-right: auto;}
+
+#orange {color: rgb(249,168,37); }
+#purple {color: rgb(156,39,176); }
+#red {color: rgb(165,39,20); }
