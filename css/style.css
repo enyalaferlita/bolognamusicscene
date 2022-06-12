@@ -27,7 +27,7 @@ h1 {color: white !important;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none !important;
 	color: black;
-	margin-left: 43% !important;}
+	margin: 40px 43%;}
 
 #li::marker {}
 
@@ -78,13 +78,35 @@ h2, h3 {font-family: 'Montserrat', sans-serif;
 			text-align: center;
 			letter-spacing: 2px;
 			margin: 4% 15%;
+			background-color: rgba(255,255,255,0.9);
+			color: black;
+			border-radius: 10px;
+			padding: 20px;
 }
+
+.backgroundclassical {background: url(../img/teatro.jpg);
+					background-position: center center;
+	     			background-repeat: no-repeat;
+	     			background-attachment: fixed;
+	     			background-size: cover;}
+
+.non-title-background-white {font-family: 'Montserrat', sans-serif;
+			text-align: center;
+			letter-spacing: 2px;
+			margin: 1% 10%;
+			background-color: rgba(255,255,255,0.9);
+			color: black;
+			border-radius: 10px;
+			padding: 20px;
+		}
 
 .backgrounddance {background: url(../img/club.jpg!d);
 	     	height: 92.5vh;
 	     	width: auto;
 	     	background-size: 100%;
 	     	background-position: 0% 30%;}
+
+
 
 .non-title-background {font-family: 'Montserrat', sans-serif;
 			text-align: center;
@@ -108,6 +130,16 @@ h2, h3 {font-family: 'Montserrat', sans-serif;
 				padding-right: 15%; 
 				margin-bottom: 5%;}
 
+.non-title-background-gray {font-family: 'Montserrat', sans-serif;
+			text-align: center;
+			letter-spacing: 2px;
+			margin: 1% 10%;
+			background-color: #eff0f1;
+			color: black;
+			border-radius: 10px;
+			padding: 20px;
+		}
+
 #map { margin-top: 3%;
 		margin-bottom: 10%;
 		margin-left: 10%;
@@ -122,3 +154,79 @@ h2, h3 {font-family: 'Montserrat', sans-serif;
 #orange {color: rgb(249,168,37); }
 #purple {color: rgb(156,39,176); }
 #red {color: rgb(165,39,20); }
+
+
+#luciodalla {width: 50%;
+			margin: 40px 25%;}
+
+
+.greybackground {background-color: rgba(248,249,250,0.8);
+				padding: 1% 40%;}
+
+.documentation {color: black;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+}
+
+.stickyfooter {position: sticky;
+				top: 100%;}
+
+body {min-height: 100vh;}
+
+#morepadding {padding-left: 4%;
+			padding-right: 4%;}
+
+h5 {font-family: 'Montserrat', sans-serif;
+			text-align: center;
+			font-weight: 400;
+			font-size: 5px;
+			letter-spacing: 2px;
+			margin-top: 0%;
+			padding-top: 1%;
+			text-transform: uppercase;
+			}
+
+h6 {font-family: 'Montserrat', sans-serif;
+			text-align: left;
+			font-size: 2px;
+			letter-spacing: 2px;
+			padding-top: 1%;
+			margin: 1%;
+			font-weight: 600 !important;
+			text-transform: uppercase;}
+
+
+.non-title-left {font-family: 'Montserrat', sans-serif;
+			text-align: left;
+			letter-spacing: 2px;
+			margin: 1% ;
+
+		}
+
+.wireframe {margin-right: 5%;
+			margin-left: 5%;
+			margin-bottom: 5%;}
+
+
+.genresbuttons { display: inline-block;
+	background-color: #eff0f1;
+	letter-spacing: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none !important;
+	color: black;
+	justify-content: center;
+  	align-items: center;}
+
+ #genrescenter {margin-right: 3%;
+ 				margin-left: 3%;}
+
