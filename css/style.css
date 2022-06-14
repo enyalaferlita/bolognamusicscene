@@ -84,7 +84,7 @@ h2, h3 {font-family: 'Montserrat', sans-serif;
 			padding: 20px;
 }
 
-.backgroundclassical {background: url(../img/teatro.jpg);
+.backgroundclassical {background: url(../img/teatrocomunale.jpg);
 					background-position: center center;
 	     			background-repeat: no-repeat;
 	     			background-attachment: fixed;
@@ -230,3 +230,16 @@ h6 {font-family: 'Montserrat', sans-serif;
  #genrescenter {margin-right: 3%;
  				margin-left: 3%;}
 
+.bluebutton {background-color: #0d6efd;
+	letter-spacing: 2px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none !important;
+	color: white;}
